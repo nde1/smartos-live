@@ -463,9 +463,9 @@ f usr/vm/etc/vmadm.completion 0444 root bin
 f usr/node/0.10/node_modules/bunyan.js 0444 root bin
 f usr/node/0.10/node_modules/expat_binding.node 0444 root bin
 f usr/node/0.10/node_modules/node-expat.js 0444 root bin
-d usr/node/0.10/node_modules/qlocker 0444 root bin
+d usr/node/0.10/node_modules/qlocker 0555 root bin
 f usr/node/0.10/node_modules/qlocker/index.js 0444 root bin
-d usr/node/0.10/node_modules/qlocker/lib 0444 root bin
+d usr/node/0.10/node_modules/qlocker/lib 0555 root bin
 f usr/node/0.10/node_modules/qlocker/lib/qlocker.js 0444 root bin
 d usr/node/0.10/node_modules/fs-ext 0555 root bin
 d usr/node/0.10/node_modules/fs-ext/build 0555 root bin
@@ -1114,6 +1114,7 @@ d usr/lib/sdc 0755 root bin
 f usr/lib/sdc/net-boot-config 0555 root bin
 s usr/sbin/fwadm=../fw/sbin/fwadm
 f usr/sbin/fssstat 0555 root bin
+f usr/sbin/piadm 0555 root bin
 f usr/sbin/sysevent 0555 root bin
 s usr/sbin/vmadm=../vm/sbin/vmadm
 s usr/sbin/vminfo=../vm/sbin/vminfo
